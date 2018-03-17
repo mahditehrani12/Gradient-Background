@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.linear_layout);
+        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.activityMain_linear_layout);
         AnimationDrawable animationDrawable = (AnimationDrawable) linearLayout.getBackground();
 
         animationDrawable.setEnterFadeDuration(2500);

@@ -3,11 +3,10 @@
 <LinearLayout
 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/linear_layout"
+    android:id="@+id/activityMain_linear_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_animation_list"
     android:orientation="vertical" >
 
- 
 </LinearLayout>
