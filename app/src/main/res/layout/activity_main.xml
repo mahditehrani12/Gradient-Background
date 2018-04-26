@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
+<RelativeLayout
 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/activityMain_linear_layout"
+    android:id="@+id/activityMain_relativeLayout_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_animation_list"
-    android:orientation="vertical" >
+    android:background="@drawable/gradient_animation_list" >
 
-</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/github"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="12dp" android:layout_marginStart="12dp"
+        android:layout_marginRight="12dp" android:layout_marginEnd="12dp" />
+
+</RelativeLayout>
